@@ -379,8 +379,8 @@ input:focus[type="url"], input:focus[type="text"], input:focus[type="email"], in
 .section-title-fp h4 {
     font-size: 20px;
     text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 2px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
     position: relative;
     padding-bottom: 10px;
 }
