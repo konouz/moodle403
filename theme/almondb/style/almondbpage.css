@@ -1,0 +1,168 @@
+/* Theme Default CSS
+==================================================*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&family=Tajawal:wght@300;400;500;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+/* global classes */
+
+hr {
+    border-bottom: 1px solid #eceff8;
+    border-top: 0 none;
+    margin: 30px 0;
+    padding: 0;
+}
+/* Theme info */
+#theme-info {
+    position: relative;
+    color: transparent;
+    font-size: 9px;
+    z-index: -1;
+}
+/* Theme info end */
+label {
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+*::-moz-selection {
+    background: #d6b161;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+.card i {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  .card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .text-container {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+ .smaller-image {
+    width: 64%;
+    padding: 50px;
+    display: block;
+    margin: 0 auto;
+}
+/* ::selection {
+      background: #444;
+      color: #fff;
+      text-shadow: none; 
+   }*/
+*::-moz-placeholder {
+    color: #555;
+    font-size: 14px;
+    opacity: 1;
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+*::-webkit-input-placeholder {
+    color: #555;
+    font-size: 14px;
+    opacity: 1;
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+*:-ms-input-placeholder {
+    color: #555;
+    font-size: 14px;
+    opacity: 1;
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+*::placeholder {
+    color: #555;
+    font-size: 14px;
+    opacity: 1;
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.theme-overlay {
+    position: relative
+}
+
+.theme-overlay:before {
+    background: #4272d7 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.separator {
+    border-top: 1px solid #f2f2f2
+}
+
+.about-section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* End Header Area */
+/* Start Slider Area
+==================================================*/
+
+
+.scrollUp a {
+    position: absolute;
+
+}
+
+body.scrolled .scrollUp {
+
+}
+
+/* End ScrollUp */
+/* Tablet desktop :768px. */
+@media only screen and (max-width: 991px) {
+
+}
+
+/* small mobile :320px. */
+@media only screen and (max-width: 767.98px) {
+    .blockbgwhite {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+  
+    .blog-content {
+        padding-left: 0;
+    }
+
+
+}
