@@ -47,11 +47,14 @@ label {
     font-size: 24px; /* Adjust the font size as needed */
   }
   .card {
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-top: solid 0.3125rem #F2D479;
+    height: max-content;
+    background: #ffffff;
+    padding: 2rem 2rem;
+    overflow: hidden;
+    color: #444444;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.3125rem 0.875rem 0 rgba(129, 129, 129, 0.2) !important;
   }
   .text-container {
     margin: 30px 0;
@@ -125,13 +128,36 @@ label {
 
 .about-section {
     background-color: #fff;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     margin: 20px;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    /* border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
 }
 
+.counter {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+.counter-item {
+    text-align: center;
+}
+
+.counter-number {
+    font-weight: bold;
+    font-size: 36px;
+}
+.counter-section{
+    margin-top: 50px ;
+
+}
+.map-section{
+    margin-top: 50px ;
+    text-align: center;
+}
 /* End Header Area */
 /* Start Slider Area
 ==================================================*/
