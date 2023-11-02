@@ -158,10 +158,50 @@ label {
     margin-top: 50px ;
     text-align: center;
 }
+.sections-text-container{
+    text-align: right;
+}
 /* End Header Area */
 /* Start Slider Area
 ==================================================*/
+ h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #467f8c;
+    position: relative;
+    padding-bottom: 10px;
+}
+ h4:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 3px;
+    width: 200px;
+    content: "";
+    background: #ebc249;
+}
 
+.page_2 h4:after {
+    position: absolute;
+    bottom: 0;
+    left: 50% !important; 
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 3px;
+    width: 200px;
+    content: "";
+    background: #ebc249;
+}
+body {
+    font-family: Alexandria!important;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
 
 .scrollUp a {
     position: absolute;
