@@ -17,7 +17,7 @@ $CFG->dboptions = array (
   'dbsocket' => '',
   'dbcollation' => 'utf8mb4_unicode_ci',
 );
-
+ 
 $CFG->wwwroot   = 'http://localhost';
 $CFG->dataroot  = 'C:\\MoodleWindowsInstaller-latest-403\\server\\moodledata';
 $CFG->admin     = 'admin';
