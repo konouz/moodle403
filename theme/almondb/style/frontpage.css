@@ -394,7 +394,7 @@ input:focus[type="url"], input:focus[type="text"], input:focus[type="email"], in
     height: 3px;
     width: 50px;
     content: "";
-    background: #adadad;
+    background: #F2D479 ;
 }
 
 .item-icon i {

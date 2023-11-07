@@ -179,6 +179,9 @@ label {
     content: "";
     background: #ebc249;
 }
+h3 {
+    color: #467f8c;
+}
 
 .page_2 h4:after {
     position: absolute;
